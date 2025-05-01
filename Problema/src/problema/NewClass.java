@@ -38,7 +38,7 @@ public class NewClass {
             }
             System.out.println("El archvo se leyó correctamente");
         } catch (Exception e) {
-            System.out.println("error al leer el archivo\nError del tipo: " + e );
+            System.out.println("error al leer el archivo\nError del tipo: " + e);
             continuar = false;
         }
         return contador;
@@ -89,4 +89,3 @@ public class NewClass {
         invertirArregloRecursivo(arreglo, inicio + 1, fin - 1);
     }
 }
-
